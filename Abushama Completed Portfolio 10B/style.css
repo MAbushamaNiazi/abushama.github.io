@@ -1,0 +1,383 @@
+
+body
+{
+    color : rgba(0, 0, 0, 0.705);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+    color: #000000;
+    border: 0;  
+    opacity: 1;
+    width: 10vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 
+{
+  font-size: 3vw;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p 
+{
+    color : rgba(0, 0, 0, 0.705);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    padding: 1vw;
+    background-color: rgb(208, 208, 255);
+}
+
+.logo {
+    position: relative;
+    margin-top: -0.01vw;
+    margin-left: 0.8vw;
+    padding: 0.1vw 0.1vw;
+    transition: 0.2s;
+    width: 15%;
+    height: 30%;
+}
+
+.logo:hover {
+    transform: scale(1.25);
+    rotate: 360deg;
+}
+
+.logo1
+{
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 70vw;
+    padding: 1vw 1vw;
+    width: 15%;
+    height: 30%;
+    transition: 0.2s;
+}
+
+.logo1:hover {
+    transform: scale(1.5);
+    rotate: 15deg;
+}
+
+.box {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: rgb(99, 99, 99);
+  font-weight: 300;
+  margin-top: 20px;
+  color: #a8a7a7
+}
+
+b{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.abt1 
+{
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.abt2
+{
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.abt3
+{
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text1, .text2, .text3, .text4, .text5 
+{
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Sil {
+  margin-left: 50%;
+  padding: 0.1vw 0.1vw;
+}
+
+a:link {
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 12px;
+    transition: 0.2s;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 12px;
+  }
+  
+   a:hover {
+    text-decoration: underline;
+    background-color: rgb(0, 81, 255);
+    border-radius: 12px;
+    transform: scale(1.5);
+  }
+  
+  a:active {
+    text-decoration: underline;
+    border-radius: 12px;
+  }
+
+  a:link, a:visited {
+    color: rgba(0, 0, 0, 0.705);
+    padding: 0.6vw 0.9vw;
+    text-decoration: none;
+  }
+
+  #name, #email, #msg {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    margin: 1.25%;
+    border: 0;
+  }
+
+  #name {
+    padding: 1%;
+    border-radius: 5vw;
+  }
+
+  #email {
+    padding: 1.2%;
+    border-radius: 5vw;
+  }
+
+  #msg {
+    padding: 5%;
+    border-radius: 2vw;
+  }
+
+  #subtn {
+    border-radius: 5vw;
+    width: 5%;
+  }
+
+  #sidemenu {
+    position: relative;
+    display: inline-block;
+    margin-top: -12vw;
+    margin-left: 65vw;
+    padding: 0.5vw 0.5vw;
+  }
+
+  .index {
+    transition: 0.2s;
+    display: inline-block;
+    color: rgb(133, 199, 242);
+    border-radius: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .index:hover {
+    transform: scale(1.25);
+  }
+
+  .about {
+    padding: 0.5vw 0.5vw;
+    display: inline-block;
+    transition: 0.2s;
+    color: rgb(133, 199, 242);
+    border-radius: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .about:hover {
+    transform: scale(1.25);
+  }
+
+  .portfolio {
+    display: inline-block;
+    transition: 0.2s;
+    color: rgb(133, 199, 242);
+    border-radius: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .portfolio:hover {
+    transform: scale(1.25);
+  }
+  
+  .contact {
+    display: inline-block;
+    transition: 0.2s;
+    color: rgb(133, 199, 242);
+    border-radius: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .contact:hover {
+    transform: scale(1.25);
+  }
+
+  .Abushama {
+    border: 0.25vw solid black;
+    padding: 0.8vw 0.5vw;
+    margin-bottom: 0.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .Manomay {
+    border: 0.25vw solid black;
+    padding: 0.8vw 0.5vw;
+    margin-bottom: 0.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .btn 
+  {
+    position: relative;
+    left: 5vw;
+    top: -25vw;
+    transition: 0.2s;
+  }
+  
+  .btn:hover 
+  {
+    transform: scale(1.25);
+  }
+
+  .Info 
+  {
+    position: relative;
+    top: 3vw;
+    right: -55vw;
+    font-size: 1.5vw;
+  }
+
+  .facebook, .twitter, .instagram, .linkedin {
+    position: relative;
+    display: inline;
+    top: 20vw;
+    right: -50vw;
+  }
+
+  .facebook {
+    padding: 1vw 1vw;
+    width: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .twitter {
+    padding: 1vw 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .instagram {
+    padding: 1vw 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .linkedin {
+    padding: 1vw 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .sub-title {
+    text-decoration: underline;
+  }
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+} 
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+  color: #5046a79c;
+  font-size: 24px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
